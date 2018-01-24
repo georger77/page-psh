@@ -1,0 +1,44 @@
+/*.navigation {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+
+#head-header{
+    border-radius: 10px;
+    border: 3px solid black;
+    min-height: 80px;
+     background-color: white;
+}
+#foot-header {
+    margin: 0 auto;
+    border: 3px solid black;
+    border-color: #F3F3F3 #BBB #BBB #F3F3F3;
+    border-radius: 10px;
+     display: flex;
+     justify-content: space-around;
+     font-size: 14pt;
+     background-color: #9ACD32;
+     min-height: 30px;
+}
+#button-need-home,
+#button-found,
+#button-lost,
+#button-shelters,
+#button-help
+{
+  border: 2px solid black;
+  border-radius: 5px;
+   background-color: #696969;
+   color:white;
+       text-align: center;
+       
+   min-width: 80px;
+   
+}
+#picture-home,
+#picture-search,
+#picture-arrow
+{max-height: 30px;}
